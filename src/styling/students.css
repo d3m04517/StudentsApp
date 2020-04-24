@@ -1,0 +1,101 @@
+.avatar {
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: solid grey 1px;
+}
+
+.container {
+    height: 500px;
+    width: 800px;
+    overflow: scroll;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: lightgrey 0px 1px 1px 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.innerContainer {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.descriptionCol h3 {
+    font-family: 'roboto';
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.descriptionCol div {
+    font-family: 'roboto';
+    margin-top: 30px;
+    color: grey;
+    margin-left: 5px;
+}
+
+.descriptionCol .grade {
+    font-family: 'roboto';
+    margin-top: 30px;
+    color: grey;
+    margin-left: 10px;
+}
+
+.descriptionCol .tag {
+    font-family: 'roboto';
+    color: grey;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 1px;
+    padding: 2px;
+    width: 50px;
+    text-align: center;
+    height: auto;
+    background-color: rgb(216, 213, 213);
+}
+
+.avatarCol {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.avatarCol img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.searchBar {
+    font-family: 'roboto';
+ 
+}
+
+.searchBar:focus, .searchBar:active, .searchBar:hover{
+    outline: none;
+    border-color:none;
+    box-shadow: none;
+}
+
+.expand-btn {
+    background-color: white;
+    border: none;
+    color: grey;
+}
+
+#tag-input {
+    font-family: 'roboto';
+    width: 150px;
+}
+
+#tag-input:focus, #tag-input:active, #tag-input:hover{
+    outline: none;
+    border-color:none;
+    box-shadow: none;
+}
